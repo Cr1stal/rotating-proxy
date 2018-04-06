@@ -101,7 +101,7 @@ module Service
 	"--ControlPort #{control_port}",
         "--NewCircuitPeriod 15",
 	"--MaxCircuitDirtiness 15",
-	"--UseEntryGuards 0",
+	"--UseEntryGuards 1",
 	"--UseEntryGuardsAsDirGuards 0",
 	"--CircuitBuildTimeout 5",
 	"--EntryNodes {DE}",
