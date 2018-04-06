@@ -105,6 +105,8 @@ module Service
 	"--UseEntryGuardsAsDirGuards 0",
 	"--CircuitBuildTimeout 5",
 	"--ExitRelay 0",
+	"--EntryNodes {DE}",
+	"--ExitNodes {DE}",
 	"--RefuseUnknownExits 0",
 	"--ClientOnly 1",
 	"--AllowSingleHopCircuits 1",
